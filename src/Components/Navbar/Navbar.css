@@ -1,0 +1,72 @@
+
+html {
+    scroll-behavior: smooth;
+}
+/* .navbar{
+    
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin: 20px 10%;
+} */
+.layout {
+    display: grid;
+    grid-template-rows: auto 1fr; /* Navbar height and content */
+    height: 100vh; /* Full viewport height */
+  }
+.navbar {
+    position: fixed; /* Fixes the navbar at the top */
+    top: 0; /* Aligns it to the top of the page */
+    width: 100%; /* Makes the navbar span the full width */
+    background-color: #333; /* Sets the background color */
+    color: white; /* Sets the text color */
+    display: flex; /* Flexbox for layout */
+    justify-content: space-between; /* Space between navbar items */
+    align-items: center; /* Align items vertically in the center */
+    padding: 10px 40px; /* Adds padding for spacing */
+    z-index: 1000; /* Ensures the navbar stays above other elements */
+    border-radius: 15px;
+  }
+.navbar h1{
+    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+}
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+  
+.navbar a:hover {
+    color: #ff9800;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+    font-size: 17px;
+}
+.nav-connect{
+    padding: 15px 20px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.logo{
+    width: 100px;
+}
+.nav-connect:hover{
+    transform: scale(1.05);
+}
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}

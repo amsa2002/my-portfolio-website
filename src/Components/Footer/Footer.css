@@ -1,0 +1,128 @@
+.footer {
+    background: linear-gradient(135deg, #1e1e1e, #2a2a2a);
+    color: #ffffff;
+    padding: 60px 20px 40px;
+    text-align: center;
+    border-top: 1px solid #444;
+    position: relative;
+    overflow: hidden;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-cta {
+    margin-bottom: 40px;
+}
+
+.footer-cta h3 {
+    font-size: 30px;
+    margin-bottom: 50px;
+    animation: fadeIn 1.5s ease-in-out;
+    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cta-button {
+    background-color: #ff6b6b;
+    color: #ffffff;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #ff4c4c;
+    transform: translateY(-3px);
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.footer-section h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #ff6b6b;
+}
+
+.footer-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    margin: 10px 0;
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #ff6b6b;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icon {
+    color: #ffffff;
+    font-size: 24px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #ff6b6b;
+    transform: scale(1.2);
+}
+
+.footer-text {
+    font-size: 14px;
+    color: #dac3c3;
+    margin-top: 30px;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ff6b6b;
+    color: #ffffff;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+}
+
+.back-to-top:hover {
+    background-color: #ff4c4c;
+    transform: translateY(-5px);
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

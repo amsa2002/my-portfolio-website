@@ -1,0 +1,76 @@
+.intro{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 10%;
+}
+.profile-img{
+    margin-top: 30px;
+    width: 240px;
+    height: 240px;
+    border-radius: 100%;
+    display: inline-block;
+}
+.intro h1{
+    text-align: center;
+    width: 65%;
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 70px;
+}
+.intro h3{
+    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+}
+.typing-text {
+    display: inline-block; 
+    min-width: 200px; 
+   white-space: nowrap; /* Ensures the text stays in one line */
+  }
+  
+.intro p{
+    width: 50%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+}
+.intro-action{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.intro-connect{
+    padding: 20px 20px;
+    border-radius: 50px;
+    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
+    cursor: pointer;
+}
+.intro-connect a{
+    text-decoration: none;
+    color:white;
+    border: 0px;
+    background: none;
+}
+.intro-resume{
+    padding: 20px 45px;
+    border-radius: 50px;
+    border: 2px solid #FFF;
+    cursor: pointer;
+}
+.intro-resume button{
+    background: none;
+    border: 0px;
+}
+.intro-resume button a{
+    text-decoration: none;
+    color:white;
+}
+.intro-resume:hover{
+    border-color: #B415FF;
+}
